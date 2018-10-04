@@ -36,7 +36,6 @@ puts i
 
 puts "Quelles sont les devises dont le cours est inferieur à 6000 ?"
 
-def inf6000
 
 i = 0
 my_hash.each_value do |v|
@@ -44,7 +43,7 @@ my_hash.each_value do |v|
 		i += 1
 	end
 end
-end
+
 puts i
  
 
