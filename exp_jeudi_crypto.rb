@@ -36,14 +36,12 @@ puts i
 
 puts "Quelles sont les devises dont le cours est inferieur à 6000 ?"
 
-
 i = 0
 my_hash.each_value do |v|
 	if v < 6000	
 		i += 1
 	end
 end
-
 puts i 
 
  
@@ -51,5 +49,5 @@ puts "Quel est le cours le plus haut parmi celle-la ?"
 
  c = my_hash.delete_if {|k,v|  v > 6000} 
 
- p c.max_by { |k,v|}
+ p c.max_by {|k,v|}
 
